@@ -1,11 +1,24 @@
-body {
-font-family: Arial, sans-serif;
+/* Основные настройки */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
 }
 
+/* Контейнер с контентом страницы */
+.container {
+  flex: 1 0 auto; /* основной контент занимает доступное пространство */
+}
+
+/* Футер */
 footer {
-margin-top: 40px;
+  flex-shrink: 0; /* футер не сжимается */
+  margin-top: 40px; /* отступ сверху, как у тебя было */
 }
 
+/* Карточки */
 .card {
-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
