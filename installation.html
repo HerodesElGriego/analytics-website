@@ -32,15 +32,21 @@
 
 <div class="container mt-4">
   <div class="row">
+
     <!-- Основная колонка -->
     <div class="col-lg-8">
+
       <h1>Установка Self-Hosted аналитики</h1>
+
+      <img src="img/installationofmatomo.jpg" class="img-fluid mb-3" alt="Установка аналитики">
+
       <p>
         Self-hosted системы аналитики позволяют владельцу сайта полностью контролировать
         сбор, хранение и обработку данных посетителей без передачи информации сторонним сервисам.
       </p>
 
-      <h5>Пример установки Matomo:</h5>
+      <h5 class="mt-4">Пример установки Matomo</h5>
+
       <ol>
         <li>Скачайте последнюю версию Matomo с официального сайта.</li>
         <li>Разархивируйте пакет на сервере в папку веб-приложения.</li>
@@ -53,27 +59,51 @@
         Процесс установки других self-hosted платформ (Plausible, Umami, Open Web Analytics)
         аналогичен и подробно описан в их документации.
       </p>
+
+      <h5 class="mt-4">Полезные ссылки</h5>
+
+      <ul>
+        <li><a href="https://matomo.org" target="_blank">Официальный сайт Matomo</a></li>
+        <li><a href="https://plausible.io" target="_blank">Официальный сайт Plausible</a></li>
+        <li><a href="https://umami.is" target="_blank">Официальный сайт Umami</a></li>
+      </ul>
+
     </div>
 
     <!-- Sidebar -->
     <div class="col-lg-4">
       <div class="card mb-3">
         <div class="card-body">
-          <h5>Популярные инструменты</h5>
-          <ul>
-            <li>Matomo</li>
-            <li>Plausible</li>
-            <li>Umami</li>
-            <li>Open Web Analytics</li>
+          <h5>Популярные платформы</h5>
+
+          <ul class="list-unstyled">
+
+            <li class="mb-2">
+              <img src="img/matomo.png" width="24" class="me-2" alt="Matomo"> Matomo
+            </li>
+
+            <li class="mb-2">
+              <img src="img/plausible.png" width="24" class="me-2" alt="Plausible"> Plausible
+            </li>
+
+            <li class="mb-2">
+              <img src="img/umami.png" width="24" class="me-2" alt="Umami"> Umami
+            </li>
+
+            <li class="mb-2">
+              <img src="img/owa.png" width="24" class="me-2" alt="Open Web Analytics"> Open Web Analytics
+            </li>
+
           </ul>
         </div>
       </div>
     </div>
+
   </div>
 
   <!-- Pagination -->
   <nav>
-    <ul class="pagination">
+    <ul class="pagination justify-content-center">
       <li class="page-item"><a class="page-link" href="index.html">1</a></li>
       <li class="page-item"><a class="page-link" href="analytics.html">2</a></li>
       <li class="page-item"><a class="page-link" href="installation.html">3</a></li>
@@ -82,6 +112,7 @@
       <li class="page-item"><a class="page-link" href="about.html">6</a></li>
     </ul>
   </nav>
+
 </div>
 
 <footer class="bg-dark text-white text-center p-3 mt-4">
@@ -90,5 +121,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>
+
 </body>
 </html>
