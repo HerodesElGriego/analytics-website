@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
@@ -30,112 +30,109 @@
   </div>
 </nav>
 
-<div class="container mt-4">
-  <div class="row">
-    <!-- Основная колонка с карточками платформ -->
-    <div class="col-lg-8">
-      <h1>Self-Hosted системы аналитики</h1>
-      <p>
-        Системы аналитики с самостоятельным размещением (self-hosted) позволяют владельцу сайта
-        полностью контролировать сбор и хранение данных посетителей.
-      </p>
+<main class="flex-fill">
+  <div class="container mt-4">
+    <div class="row">
+      <!-- Основная колонка с карточками платформ -->
+      <div class="col-lg-8">
+        <h1>Self-Hosted системы аналитики</h1>
+        <p>
+          Системы аналитики с самостоятельным размещением (self-hosted) позволяют владельцу сайта
+          полностью контролировать сбор и хранение данных посетителей.
+        </p>
 
-      <div class="row">
-        <div class="col-md-6 mb-4">
-          <div class="card">
-            <img src="img/matomo.png" class="card-img-top" alt="Matomo">
-            <div class="card-body">
-              <h5 class="card-title">Matomo</h5>
-              <p class="card-text">
-                Одна из самых популярных систем аналитики с открытым исходным кодом.
-                Предоставляет широкий набор инструментов анализа трафика.
-              </p>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/matomo.png" class="card-img-top" alt="Matomo">
+              <div class="card-body">
+                <h5 class="card-title">Matomo</h5>
+                <p class="card-text">
+                  Одна из самых популярных систем аналитики с открытым исходным кодом.
+                  Предоставляет широкий набор инструментов анализа трафика.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/plausible.png" class="card-img-top" alt="Plausible">
+              <div class="card-body">
+                <h5 class="card-title">Plausible</h5>
+                <p class="card-text">
+                  Легковесная система веб-аналитики, ориентированная на приватность пользователей
+                  и минимальный сбор данных.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/umami.png" class="card-img-top" alt="Umami">
+              <div class="card-body">
+                <h5 class="card-title">Umami</h5>
+                <p class="card-text">
+                  Современная и простая система аналитики с открытым исходным кодом.
+                  Отличается минималистичным интерфейсом.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/owa.png" class="card-img-top" alt="Open Web Analytics">
+              <div class="card-body">
+                <h5 class="card-title">Open Web Analytics</h5>
+                <p class="card-text">
+                  Система аналитики с открытым исходным кодом, позволяющая отслеживать посещаемость сайтов
+                  и поведение пользователей.
+                </p>
+              </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="col-md-6 mb-4">
-          <div class="card">
-            <img src="img/plausible.png" class="card-img-top" alt="Plausible">
-            <div class="card-body">
-              <h5 class="card-title">Plausible</h5>
-              <p class="card-text">
-                Легковесная система веб-аналитики, ориентированная на приватность пользователей
-                и минимальный сбор данных.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 mb-4">
-          <div class="card">
-            <img src="img/umami.png" class="card-img-top" alt="Umami">
-            <div class="card-body">
-              <h5 class="card-title">Umami</h5>
-              <p class="card-text">
-                Современная и простая система аналитики с открытым исходным кодом.
-                Отличается минималистичным интерфейсом.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 mb-4">
-          <div class="card">
-            <img src="img/owa.png" class="card-img-top" alt="Open Web Analytics">
-            <div class="card-body">
-              <h5 class="card-title">Open Web Analytics</h5>
-              <p class="card-text">
-                Система аналитики с открытым исходным кодом, позволяющая отслеживать посещаемость сайтов
-                и поведение пользователей.
-              </p>
-            </div>
+      <!-- Sidebar -->
+      <div class="col-lg-4">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5>Популярные платформы</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <img src="img/matomo.png" width="24" class="me-2" alt="Matomo"> Matomo
+              </li>
+              <li class="mb-2">
+                <img src="img/plausible.png" width="24" class="me-2" alt="Plausible"> Plausible
+              </li>
+              <li class="mb-2">
+                <img src="img/umami.png" width="24" class="me-2" alt="Umami"> Umami
+              </li>
+              <li class="mb-2">
+                <img src="img/owa.png" width="24" class="me-2" alt="Open Web Analytics"> Open Web Analytics
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Sidebar -->
-    <div class="col-lg-4">
-      <div class="card mb-3">
-        <div class="card-body">
-          <h5>Популярные платформы</h5>
-
-<ul class="list-unstyled">
-
-<li class="mb-2">
-<img src="img/matomo.png" width="24" class="me-2" alt="Matomo"> Matomo
-</li>
-
-<li class="mb-2">
-<img src="img/plausible.png" width="24" class="me-2" alt="Plausible"> Plausible
-</li>
-
-<li class="mb-2">
-<img src="img/umami.png" width="24"> class="me-2" alt="Umami"> Umami
-</li>
-
-<li class="mb-2">
-<img src="img/owa.png" width="24"> class="me-2" alt="Open Web Analytics"> Open Web Analytics
-</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <!-- Pagination -->
+    <nav>
+      <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="analytics.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="installation.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="comparison.html">4</a></li>
+        <li class="page-item"><a class="page-link" href="privacy.html">5</a></li>
+        <li class="page-item"><a class="page-link" href="about.html">6</a></li>
+      </ul>
+    </nav>
   </div>
-
-  <!-- Pagination -->
-  <nav>
-    <ul class="pagination justify-content-center">
-      <li class="page-item"><a class="page-link" href="index.html">1</a></li>
-      <li class="page-item"><a class="page-link" href="analytics.html">2</a></li>
-      <li class="page-item"><a class="page-link" href="installation.html">3</a></li>
-      <li class="page-item"><a class="page-link" href="comparison.html">4</a></li>
-      <li class="page-item"><a class="page-link" href="privacy.html">5</a></li>
-      <li class="page-item"><a class="page-link" href="about.html">6</a></li>
-    </ul>
-  </nav>
-</div>
+</main>
 
 <footer class="bg-dark text-white text-center p-3 mt-4">
   <p>Self Hosted Analytics Project 2026</p>
